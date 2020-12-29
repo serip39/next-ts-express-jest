@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Button } from 'react-bootstrap'
 import Navbar from '../components/Navbar'
 
 export const Home = (): JSX.Element => (
@@ -10,6 +11,7 @@ export const Home = (): JSX.Element => (
     <main>
       <h1>index page</h1>
     </main>
+    <Button>test</Button>
   </div>
 )
 
