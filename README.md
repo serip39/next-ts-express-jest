@@ -6,7 +6,7 @@
 - [Jest](https://jestjs.io/ja/)
 
 
-###手順
+### 手順
 
 1. ```docker-compose run --rm nextjs yarn add express```
 1. ```docker-compose up```
