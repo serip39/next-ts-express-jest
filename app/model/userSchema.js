@@ -2,17 +2,20 @@ const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
   name: {
-    type: String
+    type: String,
   },
   age: {
-    type: Number
+    type: Number,
   },
   gender: {
-    type: String
+    type: String,
+  },
+  email: {
+    type: String,
   },
   created: {
-    type: Date
-  }
+    type: Date,
+  },
 })
 
 module.exports = userSchema
